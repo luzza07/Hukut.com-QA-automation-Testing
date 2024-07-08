@@ -1,0 +1,32 @@
+{
+    "validUser":{
+        "email":"simpleForm@authenticationtest.com",
+        "password":"pa$$w0rd"
+    },
+    "invalidUser":{
+        "invalidEmail":{
+             "email":"simple@authenticationtest.com",
+             "password":"pa$$w0rd"
+        },
+        "invalidPassword":{
+             "email":"simpleForm@authenticationtest.com",
+             "password":"pssw0rd"
+        },
+        "invalidEmailandPassword":{
+             "email":"simple@authenticationtest.com",
+             "password":"passw0rd"
+        },
+        "emptyEmail":{
+             "email":"",
+             "password":"pa$$w0rd"
+        },
+        "emptyPassword":{
+             "email":"simple@authenticationtest.com",
+             "password":""
+        },
+        "emptyEmailandPassword":{
+            "email":"",
+            "password":""
+        }
+    }
+}

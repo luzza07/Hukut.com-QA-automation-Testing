@@ -1,0 +1,23 @@
+{
+    "validUser":{
+        "email":"nickymaharjan2003@gmail.com",
+        "password":"Nicky1234"
+    },
+    "addContact":{
+        "firstname":"Neela",
+        "lastname":"Maharjan",
+        "dateofbirth":"1999/03/19",
+        "email":"neelamaharjan1999@gmail.com",
+        "phonenumber":"9854263175",
+        "streetaddress":"example",
+        "city":"Kathmandu",
+        "state":"exmaple",
+        "postalcode":"12546",
+        "country":"Nepal"
+    },
+    "editContact":{
+        "firstname":"Luzza",
+        "lastname":"Dangol",
+        "phonenumber":"9812345678"
+    }
+}
