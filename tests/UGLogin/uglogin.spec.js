@@ -29,7 +29,7 @@ test('Login with valid user', async ({ page }) => {
     await expect(page.locator('//*[@id="menu-nav"]/li/div/span/span')).toHaveText("Shop By Categories");
 });
 
-test('Open  individual item'),async({page}) =>{
+test('has title', async ({ page }) => {
     await page.locator('//*[@id="root"]/div/div[2]/div[2]/div/div/div[1]/a/div/div/span[2]').click();
     await expect(page.locator('//*[@id="root"]/div/div[2]/div[1]/div/div/h1')).toHaveText("Dry Cakes");
     await page.locator('//*[@id="root"]/div/div[2]/div[2]/div[2]/div[2]/div[3]/div[2]/div/div[2]/button[2]').click();
@@ -39,7 +39,7 @@ test('Open  individual item'),async({page}) =>{
     await page.locator('/html/body/div[7]/div/div/div/div[2]/div/div/div/div[2]/a/button/span').click();
     await expect(page.locator('//*[@id="root"]/div/div[2]/div/div[2]/div[1]/div[1]/div/h1')).toHaveText("My Cart");
 }
-});
+);
 
 // test('Valid Email Address Login test', async ({ page }) => {
 
